@@ -1,0 +1,362 @@
+[
+ {
+  "idx": 0,
+  "gold": "18",
+  "pred": "18",
+  "correct": true,
+  "cost": 0.00338368,
+  "latency": 6.19,
+  "text": "Janet\u2019s ducks lay 16 eggs per day. She uses 3 for breakfast and 4 for muffins, so she has \\(16 - 3 - 4 = 9\\) eggs left. She sells those 9 eggs for $2 each, which comes to \\(9 \\times 2 = 18\\) dollars.\n\nAnswer: 18"
+ },
+ {
+  "idx": 1,
+  "gold": "3",
+  "pred": "3",
+  "correct": true,
+  "cost": 0.00324836,
+  "latency": 8.56,
+  "text": "Blue fiber: 2 bolts.  \nWhite fiber: half of 2 bolts = 1 bolt.  \nTotal: 2 + 1 = 3 bolts.\n\nAnswer: 3"
+ },
+ {
+  "idx": 2,
+  "gold": "70000",
+  "pred": "70000",
+  "correct": true,
+  "cost": 0.00585548,
+  "latency": 23.33,
+  "text": "The purchase price of \\(\\$80{,}000\\) is the starting value of the house. An increase of \\(150\\%\\) means the value becomes\n\\[\n80{,}000 \\times (1 + 1.5) = 80{,}000 \\times 2.5 = 200{,}000.\n\\]\nJosh\u2019s total cost is the purchase price plus repairs:\n\\[\n80{,}000 + 50{,}000 = 130{,}000.\n\\]\nProfit is the new value minus total cost:\n\\[\n200{,}000 - 130{,}000 = 70{,}000.\n\\]\n\nAnswer: 70000"
+ },
+ {
+  "idx": 3,
+  "gold": "540",
+  "pred": "540",
+  "correct": true,
+  "cost": 0.00325448,
+  "latency": 5.51,
+  "text": "James runs 3 sprints in each session and does this 3 times a week, so he runs \\(3 \\times 3 = 9\\) sprints per week.\n\nEach sprint is 60 meters, so the weekly total is \\(9 \\times 60 = 540\\) meters.\n\nAnswer: 540"
+ },
+ {
+  "idx": 4,
+  "gold": "20",
+  "pred": "20",
+  "correct": true,
+  "cost": 0.00358972,
+  "latency": 8.1,
+  "text": "Each of the 20 chickens needs 3 cups of feed per day, so the flock needs \\(20 \\times 3 = 60\\) cups in total.\n\nThe morning and afternoon meals provide \\(15 + 25 = 40\\) cups.\n\nThe final meal must supply the remaining \\(60 - 40 = 20\\) cups.\n\nAnswer: 20"
+ },
+ {
+  "idx": 5,
+  "gold": "64",
+  "pred": "64",
+  "correct": true,
+  "cost": 0.0037434,
+  "latency": 8.22,
+  "text": "Every second glass is discounted to 60% of the regular price.\n\n- Regular price: \\(5\\)\n- Discounted price: \\(0.6 \\times 5 = 3\\)\n\nAmong 16 glasses there are 8 regular and 8 discounted glasses:\n\\[\n8 \\times 5 + 8 \\times 3 = 40 + 24 = 64\n\\]\n\nAnswer: 64"
+ },
+ {
+  "idx": 6,
+  "gold": "260",
+  "pred": "260",
+  "correct": true,
+  "cost": 0.00344284,
+  "latency": 5.08,
+  "text": "Seattle has 20 sheep.\n\nCharleston has 4 times as many sheep as Seattle, so Charleston has \\(4 \\times 20 = 80\\) sheep.\n\nToulouse has twice as many sheep as Charleston, so Toulouse has \\(2 \\times 80 = 160\\) sheep.\n\nTogether they have \\(160 + 80 + 20 = 260\\) sheep.\n\nAnswer: 260"
+ },
+ {
+  "idx": 7,
+  "gold": "160",
+  "pred": "160",
+  "correct": true,
+  "cost": 0.00438464,
+  "latency": 12.01,
+  "text": "Carla\u2019s full download at 2 GB/min takes \\(200 / 2 = 100\\) minutes.  \nShe reaches 40% (\\(80\\) GB) in \\(80 / 2 = 40\\) minutes, then waits 20 minutes for the restart.  \nShe must download the file again from the start, which takes another 100 minutes.  \nTotal time: \\(40 + 20 + 100 = 160\\) minutes.\n\nAnswer: 160"
+ },
+ {
+  "idx": 8,
+  "gold": "45",
+  "pred": "45",
+  "correct": true,
+  "cost": 0.00425612,
+  "latency": 10.19,
+  "text": "John first drives away from home for 3 hours at 60 mph, covering \\(3 \\times 60 = 180\\) miles.\n\nOn the return trip he has 4 hours:\n- 2 hours at 0 mph covers 0 miles, so he is still 180 miles from home.\n- The next 0.5 hour at 30 mph covers \\(0.5 \\times 30 = 15\\) miles, leaving 165 miles.\n- The remaining \\(4 - 2.5 = 1.5\\) hours at 80 mph cover \\(1.5 \\times 80 = 120\\) miles.\n\nDistance left: \\(165 - 120 = 45\\) miles.\n\nAnswer: 45"
+ },
+ {
+  "idx": 9,
+  "gold": "460",
+  "pred": "460",
+  "correct": true,
+  "cost": 0.0035292,
+  "latency": 5.4,
+  "text": "Regular pay for the first 40 hours: \\(40 \\times 10 = 400\\).\n\nOvertime hours: \\(45 - 40 = 5\\).\n\nOvertime rate: \\(1.2 \\times 10 = 12\\) per hour.\n\nOvertime pay: \\(5 \\times 12 = 60\\).\n\nTotal earnings: \\(400 + 60 = 460\\).\n\nAnswer: 460"
+ },
+ {
+  "idx": 10,
+  "gold": "366",
+  "pred": "366",
+  "correct": true,
+  "cost": 0.0034578,
+  "latency": 5.25,
+  "text": "Month 1: 60 downloads.\n\nMonth 2: \\(3 \\times 60 = 180\\) downloads.\n\nMonth 3: a 30% reduction from month 2 is \\(180 \\times 0.7 = 126\\) downloads.\n\nTotal: \\(60 + 180 + 126 = 366\\).\n\nAnswer: 366"
+ },
+ {
+  "idx": 11,
+  "gold": "694",
+  "pred": "694",
+  "correct": true,
+  "cost": 0.0034714,
+  "latency": 4.24,
+  "text": "Donuts: \\(3 \\times 68 = 204\\).\n\nMini cupcakes: \\(2 \\times 80 = 160\\).\n\nMini cheesecakes: \\(6 \\times 55 = 330\\).\n\nTotal: \\(204 + 160 + 330 = 694\\).\n\nAnswer: 694"
+ },
+ {
+  "idx": 12,
+  "gold": "13",
+  "pred": "13",
+  "correct": true,
+  "cost": 0.007378,
+  "latency": 36.56,
+  "text": "The planting cost is an upfront expense of \\(90\\).\n\nEach year the tree produces\n\\[\n7 \\times 1.5 = 10.5\n\\]\ndollars in lemon sales and costs \\(3\\) dollars to maintain, so the net cash flow per year is\n\\[\n10.5 - 3 = 7.5\n\\]\ndollars.\n\nAfter \\(n\\) years the total profit is\n\\[\n7.5n - 90.\n\\]\nThis quantity is positive only when\n\\[\nn > \\frac{90}{7.5} = 12.\n\\]\nThus the profit is exactly zero at the end of year \\(12\\) and first becomes positive at the end of year \\(13\\).\n\nAnswer: 13"
+ },
+ {
+  "idx": 13,
+  "gold": "18",
+  "pred": "18",
+  "correct": true,
+  "cost": 0.00420036,
+  "latency": 9.42,
+  "text": "Let \\(x\\) be the number of vacuum cleaners Melanie started with.\n\n- Green house: she sold \\(\\frac{1}{3}x\\), so \\(\\frac{2}{3}x\\) remained.\n- Red house: she sold 2 more, so \\(\\frac{2}{3}x - 2\\) remained.\n- Orange house: she sold half of what was left, so half of that amount remained:\n\n\\[\n\\frac{1}{2}\\left(\\frac{2}{3}x - 2\\right) = 5\n\\]\n\n\\[\n\\frac{2}{3}x - 2 = 10\n\\]\n\n\\[\n\\frac{2}{3}x = 12\n\\]\n\n\\[\nx = 18\n\\]\n\nCheck: start with 18 \u2192 sell 6 (left 12) \u2192 sell 2 (left 10) \u2192 sell 5 (left 5).\n\nAnswer: 18"
+ },
+ {
+  "idx": 14,
+  "gold": "60",
+  "pred": "60",
+  "correct": true,
+  "cost": 0.0037502,
+  "latency": 7.99,
+  "text": "Total students: 20.\n\nContemporary: \\(20\\%\\) of 20 = 4 students.  \nRemaining: \\(20 - 4 = 16\\).\n\nJazz: \\(25\\%\\) of 16 = 4 students.  \nHip-hop: \\(16 - 4 = 12\\) students.\n\nPercentage in hip-hop: \\(\\dfrac{12}{20} \\times 100\\% = 60\\%\\).\n\nAnswer: 60"
+ },
+ {
+  "idx": 15,
+  "gold": "125",
+  "pred": "125",
+  "correct": true,
+  "cost": 0.00347752,
+  "latency": 4.6,
+  "text": "Jewelry profit: \\(5000 \\times 0.025 = 125\\).\n\nElectronics profit: \\(8000 \\times 0.012 = 96\\).\n\nThe larger of these two profits is \\(125\\).\n\nAnswer: 125"
+ },
+ {
+  "idx": 16,
+  "gold": "230",
+  "pred": "230",
+  "correct": true,
+  "cost": 0.00503608,
+  "latency": 32.49,
+  "text": "Day 1: each train travels 80 miles west.  \nDay 2: each train travels 150 miles north.  \nTotal distance covered by each train: \\(80 + 150 = 230\\) miles.\n\nAnswer: 230"
+ },
+ {
+  "idx": 17,
+  "gold": "57500",
+  "pred": "57500",
+  "correct": true,
+  "cost": 0.00368016,
+  "latency": 8.44,
+  "text": "Jill's weekly teacher pay is \\(35 \\times 20 = 700\\) dollars.  \nHer weekly coaching pay is \\(15 \\times 30 = 450\\) dollars.  \nHer total weekly pay is \\(700 + 450 = 1150\\) dollars.  \nOver 50 weeks, her annual salary is \\(1150 \\times 50 = 57500\\) dollars.\n\nAnswer: 57500"
+ },
+ {
+  "idx": 18,
+  "gold": "7",
+  "pred": "7",
+  "correct": true,
+  "cost": 0.00334356,
+  "latency": 7.49,
+  "text": "Claire eats 3 eggs each morning.  \nThere are \\(4 \\times 7 = 28\\) mornings in 4 weeks.  \nTotal eggs: \\(28 \\times 3 = 84\\).  \nDozens: \\(84 \\div 12 = 7\\).\n\nAnswer: 7"
+ },
+ {
+  "idx": 19,
+  "gold": "6",
+  "pred": "6",
+  "correct": true,
+  "cost": 0.00361624,
+  "latency": 8.07,
+  "text": "Total distance is 12 miles and the target average speed is 4 mph, so the total time allowed is \\(12/4 = 3\\) hours.\n\nShe has already walked \\(4 + 2 = 6\\) miles in \\(1 + 1 = 2\\) hours, leaving 6 miles and 1 hour.\n\nRequired speed on the remaining distance: \\(6/1 = 6\\) mph.\n\nAnswer: 6"
+ },
+ {
+  "idx": 20,
+  "gold": "15",
+  "pred": "15",
+  "correct": true,
+  "cost": 0.00400044,
+  "latency": 8.13,
+  "text": "Orange drink: \\(\\frac{2}{3}\\) of \\(10\\) L is water, so \\(\\frac{20}{3}\\) L of water.\n\nSpilling \\(1\\) L of that mixture removes \\(\\frac{1}{10}\\) of it, so \\(\\frac{2}{3}\\) L of water is lost. Water left in the \\(9\\) L of orange drink: \\(\\frac{20}{3} - \\frac{2}{3} = 6\\) L.\n\nPineapple drink: \\(\\frac{3}{5}\\) of \\(15\\) L is water, so \\(9\\) L of water.\n\nCombined volume is \\(9 + 15 = 24\\) L, with \\(6 + 9 = 15\\) L of water.\n\nAnswer: 15"
+ },
+ {
+  "idx": 21,
+  "gold": "14",
+  "pred": "14",
+  "correct": true,
+  "cost": 0.00331024,
+  "latency": 4.38,
+  "text": "Samantha is 31, and Raymond is 6 years older, so Raymond is 37.  \nHe had a son at age 23, which was \\(37 - 23 = 14\\) years ago.\n\nAnswer: 14"
+ },
+ {
+  "idx": 22,
+  "gold": "7",
+  "pred": "7",
+  "correct": true,
+  "cost": 0.00343128,
+  "latency": 5.35,
+  "text": "First 3 customers: \\(3 \\times 1 = 3\\) DVDs.  \nNext 2 customers: \\(2 \\times 2 = 4\\) DVDs.  \nLast 3 customers: \\(3 \\times 0 = 0\\) DVDs.  \nTotal: \\(3 + 4 + 0 = 7\\).\n\nAnswer: 7"
+ },
+ {
+  "idx": 23,
+  "gold": "8",
+  "pred": "8",
+  "correct": true,
+  "cost": 0.0032674,
+  "latency": 4.71,
+  "text": "From 1:00 PM to 5:00 PM is 4 hours.  \nThe candle melts 2 cm each hour, so the total shortening is \\(4 \\times 2 = 8\\) cm.\n\nAnswer: 8"
+ },
+ {
+  "idx": 24,
+  "gold": "26",
+  "pred": "26",
+  "correct": true,
+  "cost": 0.0034714,
+  "latency": 5.1,
+  "text": "A 25% discount means Kyle paid 75% of the original price.\n\n\\[\n0.75x = 19.50\n\\]\n\n\\[\nx = \\frac{19.50}{0.75} = 26\n\\]\n\nAnswer: 26"
+ },
+ {
+  "idx": 25,
+  "gold": "2",
+  "pred": "2",
+  "correct": true,
+  "cost": 0.003519,
+  "latency": 5.64,
+  "text": "Chicken meal: \\(12\\)\n\nMilk: \\(5 \\times 3 = 15\\)\n\nApples: \\(4 \\times 1.50 = 6\\)\n\nCost of those items: \\(12 + 15 + 6 = 33\\)\n\nAmount left for pizza: \\(50 - 33 = 17\\)\n\nNumber of pizza boxes: \\(17 \\div 8.50 = 2\\)\n\nAnswer: 2"
+ },
+ {
+  "idx": 26,
+  "gold": "243",
+  "pred": "243",
+  "correct": true,
+  "cost": 0.00355708,
+  "latency": 5.44,
+  "text": "Shorts cost \\(3 \\times 16.50 = 49.50\\).  \nPants cost \\(3 \\times 22.50 = 67.50\\).  \nShoes cost \\(3 \\times 42 = 126\\).  \n\nTotal: \\(49.50 + 67.50 + 126 = 243\\).  \n\n(Equivalently, \\(3 \\times (16.50 + 22.50 + 42) = 3 \\times 81 = 243\\).)\n\nAnswer: 243"
+ },
+ {
+  "idx": 27,
+  "gold": "16",
+  "pred": "16",
+  "correct": true,
+  "cost": 0.00334764,
+  "latency": 4.4,
+  "text": "Cynthia eats 1 serving per day for 60 days, so she needs 60 servings.\n\nEach carton contains 15 servings, so she needs \\(60 \\div 15 = 4\\) cartons.\n\nEach carton costs $4.00, so the total cost is \\(4 \\times 4 = 16\\) dollars.\n\nAnswer: 16"
+ },
+ {
+  "idx": 28,
+  "gold": "25",
+  "pred": "25",
+  "correct": true,
+  "cost": 0.00337416,
+  "latency": 20.6,
+  "text": "Henry's trip is 60 miles long. His first stop is at mile 20. His second stop is 15 miles before the end, which is at mile \\(60 - 15 = 45\\). The distance between the stops is \\(45 - 20 = 25\\) miles.\n\nAnswer: 25"
+ },
+ {
+  "idx": 29,
+  "gold": "104",
+  "pred": "104",
+  "correct": true,
+  "cost": 0.00336464,
+  "latency": 5.92,
+  "text": "One pair of heels costs \\(33\\) dollars, and the other costs twice as much:\n\\[\n2 \\times 33 = 66.\n\\]\nTogether the heels cost\n\\[\n33 + 66 = 99\n\\]\ndollars. The boots cost five dollars more than that total:\n\\[\n99 + 5 = 104.\n\\]\n\nAnswer: 104"
+ },
+ {
+  "idx": 30,
+  "gold": "109",
+  "pred": "109",
+  "correct": true,
+  "cost": 0.00348976,
+  "latency": 6.29,
+  "text": "Darrell and Allen\u2019s ages are in the ratio \\(7:11\\), so their present ages can be written as \\(7x\\) and \\(11x\\).\n\nTheir total age is \\(162\\):\n\\[\n7x + 11x = 18x = 162 \\implies x = 9.\n\\]\n\nAllen\u2019s present age is \\(11 \\times 9 = 99\\).\n\nIn \\(10\\) years, Allen\u2019s age will be \\(99 + 10 = 109\\).\n\nAnswer: 109"
+ },
+ {
+  "idx": 31,
+  "gold": "80",
+  "pred": "80",
+  "correct": true,
+  "cost": 0.00356592,
+  "latency": 5.54,
+  "text": "First guess: 80.\n\nSecond guess: half of 80 is 40, and 20 more than that is 60.\n\nThird guess: 25% of 80 is 20, so 25% more than 80 is 100.\n\nAverage: (80 + 60 + 100) / 3 = 240 / 3 = 80.\n\nAnswer: 80"
+ },
+ {
+  "idx": 32,
+  "gold": "35",
+  "pred": "35",
+  "correct": true,
+  "cost": 0.00332928,
+  "latency": 5.35,
+  "text": "Each dog takes 0.5 hours per day, so 10 dogs take \\(10 \\times 0.5 = 5\\) hours per day.  \nOver 7 days, that is \\(5 \\times 7 = 35\\) hours per week.\n\nAnswer: 35"
+ },
+ {
+  "idx": 33,
+  "gold": "70",
+  "pred": "70",
+  "correct": true,
+  "cost": 0.0034646,
+  "latency": 5.87,
+  "text": "Let \\(g\\) be the number of gold coins and \\(s\\) the number of silver coins.\n\n\\[\ng + s = 110\n\\]\n\\[\ng = s + 30\n\\]\n\nSubstitute \\(g\\):\n\n\\[\n(s + 30) + s = 110\n\\]\n\\[\n2s + 30 = 110\n\\]\n\\[\n2s = 80\n\\]\n\\[\ns = 40\n\\]\n\\[\ng = 70\n\\]\n\nAnswer: 70"
+ },
+ {
+  "idx": 34,
+  "gold": "23",
+  "pred": "23",
+  "correct": true,
+  "cost": 0.00342516,
+  "latency": 5.11,
+  "text": "Raymond has 40 jewels, so half of Raymond's jewels is \\(40 \\div 2 = 20\\).\n\nAaron has 5 more than that amount: \\(20 + 5 = 25\\).\n\nSiobhan has 2 fewer jewels than Aaron: \\(25 - 2 = 23\\).\n\nAnswer: 23"
+ },
+ {
+  "idx": 35,
+  "gold": "9",
+  "pred": "9",
+  "correct": true,
+  "cost": 0.0033524,
+  "latency": 5.25,
+  "text": "In the first 20 minutes, Mike scores 4 points.\n\nIn the second 20 minutes, he scores 25% more than that:\n\\[\n4 \\times 0.25 = 1, \\quad 4 + 1 = 5\n\\]\n\nTotal points:\n\\[\n4 + 5 = 9\n\\]\n\nAnswer: 9"
+ },
+ {
+  "idx": 36,
+  "gold": "75",
+  "pred": "75",
+  "correct": true,
+  "cost": 0.00332044,
+  "latency": 4.89,
+  "text": "Terry eats \\(2 \\times 30 = 60\\) yogurts in 30 days.  \nAt 4 yogurts for \\$5, that is \\(60 / 4 = 15\\) packs.  \nCost: \\(15 \\times 5 = 75\\) dollars.\n\nAnswer: 75"
+ },
+ {
+  "idx": 37,
+  "gold": "2",
+  "pred": "2",
+  "correct": true,
+  "cost": 0.00460836,
+  "latency": 14.58,
+  "text": "He sold some of the 13 Lego sets at $15 each.  \nThe 8 video games cost \\(8 \\times 20 = 160\\) dollars, and $5 was left, so the sales brought in \\(160 + 5 = 165\\) dollars.  \nNumber sold: \\(165 \\div 15 = 11\\).  \nSets remaining: \\(13 - 11 = 2\\).\n\nAnswer: 2"
+ },
+ {
+  "idx": 38,
+  "gold": "10",
+  "pred": "10",
+  "correct": true,
+  "cost": 0.00360876,
+  "latency": 6.07,
+  "text": "John runs 3 days per week for a total of 60 miles.\n\nTime on day 1: 3 hours.  \nTime on each of the other two days: half of 3 hours, so 1.5 hours each.\n\nTotal time: \\(3 + 1.5 + 1.5 = 6\\) hours.\n\nSpeed: \\(60 \\div 6 = 10\\) miles per hour.\n\nAnswer: 10"
+ },
+ {
+  "idx": 39,
+  "gold": "18",
+  "pred": "18",
+  "correct": true,
+  "cost": 0.00506056,
+  "latency": 15.95,
+  "text": "Let Dana\u2019s walking speed be \\(w\\) mph.  \nHer running speed is four times her walking speed, so her running speed is \\(4w\\).  \nHer skipping speed is half her running speed, so her skipping speed is \\(2w\\).\n\nShe skips at 3 mph, so  \n\\[\n2w = 3 \\implies w = 1.5.\n\\]\nThus she walks at \\(1.5\\) mph and runs at \\(6\\) mph.\n\nIn 6 hours she runs for \\(\\frac13 \\times 6 = 2\\) hours and walks for \\(\\frac23 \\times 6 = 4\\) hours.  \nDistance \\(= 6 \\times 2 + 1.5 \\times 4 = 12 + 6 = 18\\) miles.\n\nAnswer: 18"
+ }
+]

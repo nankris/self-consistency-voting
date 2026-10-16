@@ -1,0 +1,4 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Generating train split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train split:  13%|█▎        | 1000/7473 [00:00<00:04, 1373.73 examples/s]Generating train split: 100%|██████████| 7473/7473 [00:00<00:00, 9731.40 examples/s]
+Generating test split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1319/1319 [00:00<00:00, 296462.51 examples/s]
+40 {'idx': 0, 'question': "Janet’s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?", 'answer': '18'}
