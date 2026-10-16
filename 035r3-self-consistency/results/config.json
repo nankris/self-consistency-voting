@@ -1,0 +1,6 @@
+{
+  "dtype": "bfloat16",
+  "batch_size": 10,
+  "deadline_epoch": 1792129760.4230657,
+  "gpu_requested": "L4"
+}

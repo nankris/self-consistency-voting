@@ -1,0 +1,127 @@
+{
+  "n": 500,
+  "margin": 0.05,
+  "reps": 100000,
+  "approximation": "Delta-hat ~ Normal(delta, (q-delta^2)/n). Intervals are normal approximations to the paired percentile bootstrap. PROVEN if the 95% lower bound exceeds 0. Otherwise DISPROVEN if the 90% interval lies inside +/- margin (TOST) or the 95% upper bound is below +margin. Else indeterminate.",
+  "round1_paired_facts": {
+    "n": 40,
+    "first_sample_accuracy": 0.55,
+    "vote5_accuracy": 0.575,
+    "mean_of_samples_accuracy": 0.505,
+    "paired_vote5_minus_first": 0.025,
+    "headline_vote5_minus_mean_of_samples": 0.07,
+    "discordant_pairs_first_vs_vote5": 1,
+    "q_first_vs_vote5": 0.025,
+    "note": "The +7 point headline compares the vote to the average of five samples, not to one pre-specified sample. The paired first-vs-vote contrast was +2.5 points, 1 discordant question of 40."
+  },
+  "scenarios": [
+    {
+      "delta": 0.0,
+      "q": 0.05,
+      "se": 0.01,
+      "ci95_halfwidth": 0.019599639845400002,
+      "proven": 0.02465,
+      "disproven": 0.97535,
+      "indeterminate": 0.0
+    },
+    {
+      "delta": 0.0,
+      "q": 0.1,
+      "se": 0.01414213562373095,
+      "ci95_halfwidth": 0.027718076486992795,
+      "proven": 0.02561,
+      "disproven": 0.96979,
+      "indeterminate": 0.0046
+    },
+    {
+      "delta": 0.0,
+      "q": 0.15,
+      "se": 0.017320508075688773,
+      "ci95_halfwidth": 0.03394757202228422,
+      "proven": 0.02533,
+      "disproven": 0.89235,
+      "indeterminate": 0.08232
+    },
+    {
+      "delta": 0.0,
+      "q": 0.2,
+      "se": 0.02,
+      "ci95_halfwidth": 0.039199279690800004,
+      "proven": 0.02493,
+      "disproven": 0.80285,
+      "indeterminate": 0.17222
+    },
+    {
+      "delta": 0.0,
+      "q": 0.25,
+      "se": 0.022360679774997897,
+      "ci95_halfwidth": 0.04382612702882787,
+      "proven": 0.02475,
+      "disproven": 0.72326,
+      "indeterminate": 0.25199
+    },
+    {
+      "delta": 0.025,
+      "q": 0.025,
+      "se": 0.0069821200218844704,
+      "ci95_halfwidth": 0.013684703778629199,
+      "proven": 0.94693,
+      "disproven": 0.05307,
+      "indeterminate": 0.0
+    },
+    {
+      "delta": 0.025,
+      "q": 0.08,
+      "se": 0.012599603168354153,
+      "ci95_halfwidth": 0.024694768429470215,
+      "proven": 0.51116,
+      "disproven": 0.48884,
+      "indeterminate": 0.0
+    },
+    {
+      "delta": 0.05,
+      "q": 0.08,
+      "se": 0.012449899597988732,
+      "ci95_halfwidth": 0.02440135482319694,
+      "proven": 0.97993,
+      "disproven": 0.02007,
+      "indeterminate": 0.0
+    },
+    {
+      "delta": 0.05,
+      "q": 0.15,
+      "se": 0.017175564037317667,
+      "ci95_halfwidth": 0.03366348692730307,
+      "proven": 0.8299,
+      "disproven": 0.0498,
+      "indeterminate": 0.1203
+    },
+    {
+      "delta": 0.07,
+      "q": 0.1,
+      "se": 0.01379130160644745,
+      "ci95_halfwidth": 0.02703045444856565,
+      "proven": 0.99912,
+      "disproven": 0.00088,
+      "indeterminate": 0.0
+    },
+    {
+      "delta": 0.07,
+      "q": 0.15,
+      "se": 0.017035257556021866,
+      "ci95_halfwidth": 0.03338849127716576,
+      "proven": 0.98459,
+      "disproven": 0.00237,
+      "indeterminate": 0.01304
+    },
+    {
+      "delta": 0.07,
+      "q": 0.2,
+      "se": 0.019753480705941424,
+      "ci95_halfwidth": 0.038716110752950963,
+      "proven": 0.94324,
+      "disproven": 0.00368,
+      "indeterminate": 0.05308
+    }
+  ]
+}

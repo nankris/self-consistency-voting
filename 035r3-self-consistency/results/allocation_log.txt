@@ -1,0 +1,35 @@
+
+--- 2026-10-16 00:39:35 L4 try 1 ---
+{"balance": 173.98, "rate_per_h": 3.08, "assignments": 2, "raw": "Current balance: 173.98 compute units\nUsage rate: 3.08/hr\nActive assignments: 2"}
+[colab] Creating session 'r3035'...
+
+[colab] Allocation refused (precondition failed). This can mean too many active sessions, or a temporary usage or capacity limit for the requested runtime. Run `colab stop` to free up a session, wait and retry, or try a different accelerator.
+
+
+--- 2026-10-16 00:44:52 L4 try 1 ---
+{"balance": 173.73, "rate_per_h": 3.08, "assignments": 2, "raw": "Current balance: 173.73 compute units\nUsage rate: 3.08/hr\nActive assignments: 2"}
+[colab] Creating session 'r3035'...
+
+[colab] Allocation refused (precondition failed). This can mean too many active sessions, or a temporary usage or capacity limit for the requested runtime. Run `colab stop` to free up a session, wait and retry, or try a different accelerator.
+
+
+--- 2026-10-16 00:49:55 L4 try 2 ---
+{"balance": 173.47, "rate_per_h": 3.08, "assignments": 2, "raw": "Current balance: 173.47 compute units\nUsage rate: 3.08/hr\nActive assignments: 2"}
+[colab] Creating session 'r3035'...
+
+[colab] Allocation refused (precondition failed). This can mean too many active sessions, or a temporary usage or capacity limit for the requested runtime. Run `colab stop` to free up a session, wait and retry, or try a different accelerator.
+
+
+--- 2026-10-16 00:54:58 L4 try 3 ---
+{"balance": 173.21, "rate_per_h": 3.08, "assignments": 2, "raw": "Current balance: 173.21 compute units\nUsage rate: 3.08/hr\nActive assignments: 2"}
+[colab] Creating session 'r3035'...
+
+[colab] Allocation refused (precondition failed). This can mean too many active sessions, or a temporary usage or capacity limit for the requested runtime. Run `colab stop` to free up a session, wait and retry, or try a different accelerator.
+
+
+--- 2026-10-16 02:43:46 L4 try 1 ---
+{"balance": 172.57, "rate_per_h": 0.0, "assignments": 0, "raw": "Current balance: 172.57 compute units\nUsage rate: 0.00/hr\nActive assignments: 0"}
+[colab] Creating session 'r3035'...
+[colab] Session READY.
+
+

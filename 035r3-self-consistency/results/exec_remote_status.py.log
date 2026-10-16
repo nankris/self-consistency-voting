@@ -1,0 +1,16 @@
+BEGIN_STATUS
+PID 4699
+ALIVE True
+PROGRESS {"status": "loading", "completed": 0, "n": 500, "files": [], "updated": 1792118928.9671862, "prompt_tail": "His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?\nSolve it step by step. Finish with a final line 'Answer: <number>'.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"}
+ERROR NO
+LOGTAIL
+Capturing CUDA graphs (FULL): 100%|██████████| 2/2 [00:00<00:00, 16.30it/s]
+(EngineCore pid=5118) INFO 10-16 02:50:59 [model_runner.py:1087] Graph capturing finished in 3 secs, took 0.16 GiB
+(EngineCore pid=5118) INFO 10-16 02:51:00 [gpu_worker.py:692] Available KV cache memory: 11.17 GiB
+(EngineCore pid=5118) INFO 10-16 02:51:00 [gpu_worker.py:707] CUDA graph memory profiling is enabled (default since v0.21.0). The current --gpu-memory-utilization=0.9000 is equivalent to --gpu-memory-utilization=0.8924 without CUDA graph memory profiling. To maintain the same effective KV cache size
+(EngineCore pid=5118) INFO 10-16 02:51:00 [kv_cache_utils.py:2464] GPU KV cache size: 81,360 tokens, Maximum concurrency for 4,096 tokens per request: 19.86x
+(EngineCore pid=5118) INFO 10-16 02:51:00 [kernel_warmup.py:172] JIT kernel warmup starting.
+(EngineCore pid=5118) INFO 10-16 02:51:00 [kernel_warmup.py:185] JIT kernel warmup finished in 0.00s.
+2026-10-16 02:51:03,022 - INFO - core.py:564 - flashinfer.jit: Building JIT module sampling; this can take several minutes on first use.
+END_STATUS
+

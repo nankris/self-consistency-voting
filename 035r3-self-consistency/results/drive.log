@@ -1,0 +1,87 @@
+2026-10-16 00:39:32 cmd colab usage
+2026-10-16 00:39:33 usage before {'balance': 173.98, 'rate_per_h': 3.08, 'assignments': 2, 'raw': 'Current balance: 173.98 compute units\nUsage rate: 3.08/hr\nActive assignments: 2'}
+2026-10-16 00:39:33 cmd colab usage
+2026-10-16 00:39:35 allocate attempt L4 1/15 before={'balance': 173.98, 'rate_per_h': 3.08, 'assignments': 2, 'raw': 'Current balance: 173.98 compute units\nUsage rate: 3.08/hr\nActive assignments: 2'}
+2026-10-16 00:39:35 cmd colab new --gpu L4 -s r3035
+2026-10-16 00:39:37 allocation failed L4 try 1: [colab] Creating session 'r3035'...
+
+[colab] Allocation refused (precondition failed). This can mean too many active sessions, or a temporary usage or capacity limit for the requested runtime. Run `colab stop` to free up a session, wait and retry, or try a different accelerator.
+
+2026-10-16 00:39:37 waiting 300s before retry
+2026-10-16 00:44:48 cmd colab usage
+2026-10-16 00:44:50 usage before {'balance': 173.73, 'rate_per_h': 3.08, 'assignments': 2, 'raw': 'Current balance: 173.73 compute units\nUsage rate: 3.08/hr\nActive assignments: 2'}
+2026-10-16 00:44:50 cmd colab usage
+2026-10-16 00:44:52 allocate attempt L4 1/15 before={'balance': 173.73, 'rate_per_h': 3.08, 'assignments': 2, 'raw': 'Current balance: 173.73 compute units\nUsage rate: 3.08/hr\nActive assignments: 2'}
+2026-10-16 00:44:52 cmd colab new --gpu L4 -s r3035
+2026-10-16 00:44:54 allocation failed L4 try 1: [colab] Creating session 'r3035'...
+
+[colab] Allocation refused (precondition failed). This can mean too many active sessions, or a temporary usage or capacity limit for the requested runtime. Run `colab stop` to free up a session, wait and retry, or try a different accelerator.
+
+2026-10-16 00:44:54 waiting 300s before retry
+2026-10-16 00:49:54 cmd colab usage
+2026-10-16 00:49:55 allocate attempt L4 2/15 before={'balance': 173.47, 'rate_per_h': 3.08, 'assignments': 2, 'raw': 'Current balance: 173.47 compute units\nUsage rate: 3.08/hr\nActive assignments: 2'}
+2026-10-16 00:49:55 cmd colab new --gpu L4 -s r3035
+2026-10-16 00:49:57 allocation failed L4 try 2: [colab] Creating session 'r3035'...
+
+[colab] Allocation refused (precondition failed). This can mean too many active sessions, or a temporary usage or capacity limit for the requested runtime. Run `colab stop` to free up a session, wait and retry, or try a different accelerator.
+
+2026-10-16 00:49:57 waiting 300s before retry
+2026-10-16 00:54:57 cmd colab usage
+2026-10-16 00:54:58 allocate attempt L4 3/15 before={'balance': 173.21, 'rate_per_h': 3.08, 'assignments': 2, 'raw': 'Current balance: 173.21 compute units\nUsage rate: 3.08/hr\nActive assignments: 2'}
+2026-10-16 00:54:58 cmd colab new --gpu L4 -s r3035
+2026-10-16 00:54:59 allocation failed L4 try 3: [colab] Creating session 'r3035'...
+
+[colab] Allocation refused (precondition failed). This can mean too many active sessions, or a temporary usage or capacity limit for the requested runtime. Run `colab stop` to free up a session, wait and retry, or try a different accelerator.
+
+2026-10-16 00:54:59 waiting 300s before retry
+2026-10-16 02:43:43 cmd colab usage
+2026-10-16 02:43:44 usage before {'balance': 172.57, 'rate_per_h': 0.0, 'assignments': 0, 'raw': 'Current balance: 172.57 compute units\nUsage rate: 0.00/hr\nActive assignments: 0'}
+2026-10-16 02:43:44 cmd colab usage
+2026-10-16 02:43:46 allocate attempt L4 1/15 before={'balance': 172.57, 'rate_per_h': 0.0, 'assignments': 0, 'raw': 'Current balance: 172.57 compute units\nUsage rate: 0.00/hr\nActive assignments: 0'}
+2026-10-16 02:43:46 cmd colab new --gpu L4 -s r3035
+2026-10-16 02:43:48 cmd colab usage
+2026-10-16 02:43:49 SESSION_READY L4 marginal_cu_per_h=1.54 after={'balance': 172.57, 'rate_per_h': 1.54, 'assignments': 1, 'raw': 'Current balance: 172.57 compute units\nUsage rate: 1.54/hr\nActive assignments: 1'}
+2026-10-16 02:43:49 installing vllm
+2026-10-16 02:43:49 cmd colab exec -s r3035 -f /workspace/work/tig/035r3-self-consistency/scripts/remote_setup.py --timeout 1800
+2026-10-16 02:47:42 exec remote_setup.py rc=0 bytes=35
+2026-10-16 02:47:42 cmd colab exec -s r3035 -f /workspace/work/tig/035r3-self-consistency/scripts/remote_mkdir.py --timeout 60
+2026-10-16 02:48:06 exec remote_mkdir.py rc=0 bytes=10
+2026-10-16 02:48:06 cmd colab upload -s r3035 /workspace/work/tig/035r3-self-consistency/scripts/protocol.json /content/035r3/protocol.json
+2026-10-16 02:48:09 cmd colab upload -s r3035 /workspace/work/tig/035r3-self-consistency/scripts/infer.py /content/infer.py
+2026-10-16 02:48:10 cmd colab exec -s r3035 -f /workspace/work/tig/035r3-self-consistency/scripts/remote_status.py --timeout 90
+2026-10-16 02:48:13 exec remote_status.py rc=0 bytes=73
+2026-10-16 02:48:13 cmd colab upload -s r3035 /workspace/work/tig/035r3-self-consistency/results/config.json /content/035r3/config.json
+2026-10-16 02:48:14 cmd colab exec -s r3035 -f /workspace/work/tig/035r3-self-consistency/scripts/remote_launch.py --timeout 90
+2026-10-16 02:48:17 exec remote_launch.py rc=0 bytes=15
+2026-10-16 02:48:17 infer launched
+2026-10-16 02:48:42 cmd colab exec -s r3035 -f /workspace/work/tig/035r3-self-consistency/scripts/remote_status.py --timeout 90
+2026-10-16 02:48:45 exec remote_status.py rc=0 bytes=617
+2026-10-16 02:48:45 cmd colab download -s r3035 /content/035r3/progress.json /workspace/work/tig/035r3-self-consistency/results/progress.json.partial
+2026-10-16 02:48:47 cmd colab download -s r3035 /content/035r3/metadata.json /workspace/work/tig/035r3-self-consistency/results/metadata.json.partial
+2026-10-16 02:48:49 cmd colab download -s r3035 /content/035r3/questions.json /workspace/work/tig/035r3-self-consistency/results/questions.json.partial
+2026-10-16 02:48:51 heartbeat completed=0 status=prepared alive=True
+2026-10-16 02:49:16 cmd colab exec -s r3035 -f /workspace/work/tig/035r3-self-consistency/scripts/remote_status.py --timeout 90
+2026-10-16 02:49:18 exec remote_status.py rc=0 bytes=1409
+2026-10-16 02:49:18 cmd colab download -s r3035 /content/035r3/progress.json /workspace/work/tig/035r3-self-consistency/results/progress.json.partial
+2026-10-16 02:49:19 cmd colab download -s r3035 /content/035r3/metadata.json /workspace/work/tig/035r3-self-consistency/results/metadata.json.partial
+2026-10-16 02:50:04 cmd colab download -s r3035 /content/035r3/questions.json /workspace/work/tig/035r3-self-consistency/results/questions.json.partial
+2026-10-16 02:50:06 heartbeat completed=0 status=loading alive=True
+2026-10-16 02:50:31 cmd colab exec -s r3035 -f /workspace/work/tig/035r3-self-consistency/scripts/remote_status.py --timeout 90
+2026-10-16 02:50:34 exec remote_status.py rc=0 bytes=1410
+2026-10-16 02:50:34 cmd colab download -s r3035 /content/035r3/progress.json /workspace/work/tig/035r3-self-consistency/results/progress.json.partial
+2026-10-16 02:50:36 cmd colab download -s r3035 /content/035r3/metadata.json /workspace/work/tig/035r3-self-consistency/results/metadata.json.partial
+2026-10-16 02:50:38 cmd colab download -s r3035 /content/035r3/questions.json /workspace/work/tig/035r3-self-consistency/results/questions.json.partial
+2026-10-16 02:50:41 heartbeat completed=0 status=loading alive=True
+2026-10-16 02:51:06 cmd colab exec -s r3035 -f /workspace/work/tig/035r3-self-consistency/scripts/remote_status.py --timeout 90
+2026-10-16 02:51:08 exec remote_status.py rc=0 bytes=1510
+2026-10-16 02:51:08 cmd colab download -s r3035 /content/035r3/progress.json /workspace/work/tig/035r3-self-consistency/results/progress.json.partial
+2026-10-16 02:51:28 cmd colab download -s r3035 /content/035r3/metadata.json /workspace/work/tig/035r3-self-consistency/results/metadata.json.partial
+2026-10-16 02:51:30 cmd colab download -s r3035 /content/035r3/questions.json /workspace/work/tig/035r3-self-consistency/results/questions.json.partial
+2026-10-16 02:51:32 heartbeat completed=0 status=loading alive=True
+2026-10-16 02:51:57 cmd colab exec -s r3035 -f /workspace/work/tig/035r3-self-consistency/scripts/remote_status.py --timeout 90
+2026-10-16 02:52:10 exec remote_status.py rc=0 bytes=1510
+2026-10-16 02:52:10 cmd colab download -s r3035 /content/035r3/progress.json /workspace/work/tig/035r3-self-consistency/results/progress.json.partial
+2026-10-16 02:52:11 cmd colab download -s r3035 /content/035r3/metadata.json /workspace/work/tig/035r3-self-consistency/results/metadata.json.partial
+2026-10-16 02:52:13 cmd colab download -s r3035 /content/035r3/questions.json /workspace/work/tig/035r3-self-consistency/results/questions.json.partial
+2026-10-16 02:52:15 heartbeat completed=0 status=loading alive=True
+2026-10-16 02:52:40 cmd colab exec -s r3035 -f /workspace/work/tig/035r3-self-consistency/scripts/remote_status.py --timeout 90

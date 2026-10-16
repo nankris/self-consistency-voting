@@ -1,0 +1,16 @@
+{
+  "allocations": [
+    {
+      "session": "r3035",
+      "gpu": "L4",
+      "start": 1792118629.6438448,
+      "stop": null,
+      "marginal_cu_per_h": 1.54,
+      "balance_before": 172.57,
+      "rate_before": 0.0,
+      "rate_after": 1.54
+    }
+  ],
+  "cu_used": 0.0,
+  "stopped_for_budget": false
+}
