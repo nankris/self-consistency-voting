@@ -1,0 +1,1 @@
+{"start": 1792047304.8385708, "gpu": "NVIDIA L4", "model": "Qwen/Qwen3-4B", "model_revision": null, "n_questions": 200, "versions": {"vllm": "0.31.0", "transformers": "5.17.0", "torch": "2.13.0", "datasets": "4.8.5"}}

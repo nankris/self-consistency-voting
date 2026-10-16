@@ -1,0 +1,13 @@
+mpleted_pairs 223 / 400
+SAVED on 752 completed_pairs 224 / 400
+SAVED on 398 completed_pairs 225 / 400
+SAVED on 703 completed_pairs 226 / 400
+SAVED on 850 completed_pairs 227 / 400
+
+COMPLETED 227 mode-question pairs; {'off': 200, 'on': 27}
+TOKENS 779951
+TRUNCATED 0
+name, memory.used [MiB], utilization.gpu [%]
+NVIDIA L4, 20470 MiB, 100 %
+UTC 2026-10-15 07:24:07
+INFERENCE_PIDS 10545

@@ -1,0 +1,11 @@
+{
+  "gpu": "name, driver_version, memory.total [MiB]\nNVIDIA L4, 580.82.07, 23034 MiB",
+  "cuda": "13.0",
+  "model_snapshot_ids": [
+    "1cfa9a7208912126459214e8b04321603b3df60c"
+  ],
+  "dataset_snapshot_ids": [
+    "740312add88f781978c0658806c59bc2815b9866"
+  ],
+  "questions_sha256": "c5c3dc7c0c581921a514879bd1ea9ef4c5a1fa40605ea5b95bf271fc3dce5f7f"
+}

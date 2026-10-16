@@ -1,0 +1,9 @@
+2026-10-15 UTC, after source /workspace/tools/setup.sh
+Before: balance 181.82 CU; usage rate 3.08/hr; active assignments 2.
+Command, attempted three times: colab new --gpu L4 -s tig035r
+Each returned exit 1:
+[colab] Allocation refused (precondition failed). This can mean too many active sessions, or a temporary usage or capacity limit for the requested runtime. Run `colab stop` to free up a session, wait and retry, or try a different accelerator.
+No GPU session was allocated. Setup execution attempt returned Session 'tig035r' not found.
+Cleanup: colab stop -s tig035r -> Session 'tig035r' not found.
+After: balance 181.82 CU; usage rate 3.08/hr; active assignments 2.
+Other assignments were not modified. No A100 requested: no evidence L4 cannot fit model.
