@@ -1,0 +1,14 @@
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "thinking": false,
+  "suffix": "\nSolve briefly. End with exactly: Answer: NUMBER",
+  "versions": {
+    "vllm": "0.31.0",
+    "torch": "2.13.0",
+    "transformers": "5.17.0",
+    "datasets": "4.8.5"
+  },
+  "start": 1792122370.2925396,
+  "model_commit": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e"
+}

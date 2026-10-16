@@ -1,0 +1,35 @@
+{
+  "n": 400,
+  "greedy_correct": 114,
+  "vote_correct": 176,
+  "greedy_accuracy": 0.285,
+  "vote_accuracy": 0.44,
+  "delta": 0.155,
+  "ci95": [
+    0.115,
+    0.195
+  ],
+  "ci90": [
+    0.12,
+    0.19
+  ],
+  "vote_only": 71,
+  "greedy_only": 9,
+  "mcnemar_exact_p": 4.3739781822391746e-13,
+  "verdict": "PROVEN",
+  "reason": "superiority",
+  "strict_greedy_correct": 113,
+  "strict_vote_correct": 174,
+  "parse_missing_greedy": 223,
+  "parse_missing_samples": 1116,
+  "truncated_greedy": 2,
+  "truncated_samples": 13,
+  "greedy_ci95": [
+    0.2425,
+    0.33
+  ],
+  "vote_ci95": [
+    0.3925,
+    0.4875
+  ]
+}

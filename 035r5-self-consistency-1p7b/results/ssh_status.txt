@@ -1,0 +1,33 @@
+Warning: Permanently added 'colab-runtime' (ED25519) to the list of known hosts.
+(MainProcess pid=5368) INFO 10-16 03:46:10 [hf.py:646] Detected the chat template content format to be 'string'. You can set `--chat-template-content-format` to override this.
+(EngineCore pid=5848) WARNING 10-16 03:46:10 [jit_monitor.py:140] Triton kernel JIT compilation during inference: _topp_sb_stats_kernel. This causes a latency spike; consider extending warmup to cover this shape/config.
+(EngineCore pid=5848) WARNING 10-16 03:46:11 [jit_monitor.py:140] Triton kernel JIT compilation during inference: _topp_sb_step_kernel. This causes a latency spike; consider extending warmup to cover this shape/config.
+(EngineCore pid=5848) WARNING 10-16 03:46:13 [jit_monitor.py:140] Triton kernel JIT compilation during inference: _topp_sb_mask_kernel. This causes a latency spike; consider extending warmup to cover this shape/config.
+(EngineCore pid=5848) WARNING 10-16 03:46:13 [jit_monitor.py:140] Triton kernel JIT compilation during inference: _gumbel_sample_kernel. This causes a latency spike; consider extending warmup to cover this shape/config.
+(EngineCore pid=5848) WARNING 10-16 03:46:15 [jit_monitor.py:140] Triton kernel JIT compilation during inference: _topk_topp_kernel. This causes a latency spike; consider extending warmup to cover this shape/config.
+BATCH 50 seconds 25.25188636779785
+BATCH 100 seconds 4.006985187530518
+BATCH 150 seconds 5.87280011177063
+BATCH 200 seconds 5.783419847488403
+BATCH 250 seconds 5.289841890335083
+BATCH 300 seconds 5.131098508834839
+ack0000
+ack0050
+ack0100
+ack0150
+ack0200
+b0000.jsonl
+b0050.jsonl
+b0100.jsonl
+b0150.jsonl
+b0200.jsonl
+b0250.jsonl
+infer.log
+infer.py
+initial_launch_error.txt
+metadata.json
+pid
+progress.json
+prompt.txt
+questions.json
+setup.log

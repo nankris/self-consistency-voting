@@ -1,0 +1,6 @@
+{
+  "README.md": "004b8bc34b93cdc5aaee8b1f1640a48657f57d3b986ae1bac098458b38d35466",
+  "scripts/parser.py": "c8ecfea4005b757e185b5160c9391a197946a23126387435df6ce5246033c507",
+  "scripts/infer.py": "27f67233b14288c98058cad6fde4b1b08bdabeebeccd04ad34913ff1ba967f4c",
+  "scripts/analyze.py": "a438cc934cee136fdc095f3538f7a4c5b1fe12a263a923ea0e36473aa5c9cebb"
+}

@@ -1,0 +1,9 @@
+{
+  "questions": 400,
+  "generations": 2400,
+  "unique_contiguous_positions": true,
+  "raw_questions_match_dataset_snapshot": true,
+  "all_output_caps_respected": true,
+  "parser_identical_round3": true,
+  "owned_session_stopped": true
+}

@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/content/r5q035/infer.py", line 43, in <module>
+    try: main()
+         ~~~~^^
+  File "/content/r5q035/infer.py", line 8, in main
+    from vllm import LLM,SamplingParams
+ModuleNotFoundError: No module named 'vllm'

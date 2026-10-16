@@ -1,0 +1,30 @@
+[
+  {
+    "delta": 0.07,
+    "discordance": 0.15,
+    "se": 0.01904599695474091,
+    "superiority_power": 0.9568560795530868,
+    "equivalence_power": 0
+  },
+  {
+    "delta": 0.07,
+    "discordance": 0.2,
+    "se": 0.022085062825357778,
+    "superiority_power": 0.8867768512316107,
+    "equivalence_power": 0
+  },
+  {
+    "delta": 0,
+    "discordance": 0.05,
+    "se": 0.011180339887498949,
+    "superiority_power": 0.04999579029644087,
+    "equivalence_power": 0.11450012659109188
+  },
+  {
+    "delta": 0,
+    "discordance": 0.02,
+    "se": 0.007071067811865475,
+    "superiority_power": 0.04999579029644087,
+    "equivalence_power": 0.7634180635566938
+  }
+]

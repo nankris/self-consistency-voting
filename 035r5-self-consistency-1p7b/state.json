@@ -1,0 +1,15 @@
+{
+  "session": "r5q035",
+  "owned": true,
+  "start": 1792121840,
+  "deadline": 1792123390,
+  "rate_upper": 10.6,
+  "balance_before": 171.05,
+  "status": "stopped",
+  "stop": 1792122811.4154108,
+  "cu_upper": 2.8602787094513573,
+  "rate_estimate": 5.3,
+  "cu_estimate": 1.4301393547256787,
+  "cu_account_balance_change": 1.99,
+  "cu_note": "Rate-difference estimate 10.60 minus 5.30 CU/hour; upper bound charges entire observed account rate. Account balance change includes concurrent work and billing update lag."
+}

@@ -1,0 +1,1 @@
+[r5g027] gpu-a100-s-kkb-usc1f0-39wdfppdbnun1 | Hardware: A100 | Shape: Standard | Variant: GPU

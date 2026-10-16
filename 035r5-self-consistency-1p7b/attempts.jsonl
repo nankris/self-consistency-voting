@@ -1,0 +1,21 @@
+{"event":"preregistered","date":"2026-10-16","balance_before":171.05,"source":"colab usage","status":"ready"}
+{"event": "allocated", "time": 1792121868.3557518, "session": "r5q035", "owned": true, "start": 1792121840, "deadline": 1792123390, "rate_upper": 10.6, "balance_before": 171.05, "status": "allocated"}
+{"event": "setup_recovery", "time": 1792122099.5168078, "details": "pip dependency replacement disconnected notebook; kernel restarted, initial premature launch failed, relaunch waits for pip completion; no samples discarded"}
+{"time": 1792122105.255416, "event": "driver_resumed"}
+{"time": 1792122456.8124046, "event": "driver_resumed"}
+{"event": "control_timeout_recovery", "time": 1792122465.7244341, "detail": "first batch generated remotely; 10s HTTP control timeouts; isolated wrapper uses minimum 60s, controller resumed without changing inference or seeds"}
+{"time": 1792122472.0753226, "event": "batch_mirrored", "start": 0, "rows": 50}
+{"time": 1792122505.5905683, "event": "batch_mirrored", "start": 50, "rows": 50}
+{"time": 1792122528.2177413, "event": "batch_mirrored", "start": 100, "rows": 50}
+{"time": 1792122548.0114613, "event": "batch_mirrored", "start": 150, "rows": 50}
+{"time": 1792122576.3191638, "event": "batch_mirrored", "start": 200, "rows": 50}
+{"time": 1792122692.2780945, "event": "driver_resumed"}
+{"time": 1792122692.2793481, "event": "batch_mirrored", "start": 0, "rows": 50}
+{"time": 1792122696.898022, "event": "batch_mirrored", "start": 50, "rows": 50}
+{"time": 1792122727.1115258, "event": "batch_mirrored", "start": 100, "rows": 50}
+{"time": 1792122727.923239, "event": "ssh_control_recovery", "detail": "same remote pid 5368; only notebook control endpoint bypassed using authorized Colab SSH"}
+{"time": 1792122751.7891173, "event": "batch_mirrored", "start": 250, "rows": 50, "transport": "colab SSH cat"}
+{"time": 1792122765.7208576, "event": "batch_mirrored", "start": 300, "rows": 50, "transport": "colab SSH cat"}
+{"time": 1792122782.2370343, "event": "batch_mirrored", "start": 350, "rows": 50, "transport": "colab SSH cat"}
+{"time": 1792122809.7187915, "event": "all_400_saved", "transport": "colab SSH cat"}
+{"time": 1792122811.518634, "event": "stop", "session": "r5q035", "owned": true, "start": 1792121840, "deadline": 1792123390, "rate_upper": 10.6, "balance_before": 171.05, "status": "stopped", "stop": 1792122811.4154108, "cu_upper": 2.8602787094513573}
